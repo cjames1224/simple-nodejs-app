@@ -18,7 +18,7 @@ router.get('/users/:userId', function(req, res, next) {
   res.send({
     success: true, 
     userId: req.params.userId,
-    name: "Christian"
+    name: "Christian James"
   })
 });
 
