@@ -14,7 +14,7 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', {page:'Contact Us', menuId:'contact'});
 });
 
-router.get('/users/:userId', function(req, res, next) {
+outer.get('/users/:userId', function(req, res, next) {
   res.send({
     success: true, 
     userId: req.params.userId,
